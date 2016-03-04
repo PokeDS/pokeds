@@ -1,0 +1,63 @@
+<div id="bottom">
+	<div id="bottomText">
+		<div class="left">&copy; 2016 <a href="/">PokeDS</a>. Pok&eacute;mon &copy; 1995-2016			<a href="http://www.nintendo.com/" target="_blank">Nintendo</a>/
+			<a href="http://www.pokemon.com/" target="_blank">Pok&eacute;mon</a>.
+			Icons &copy; <a href="http://led24.de/iconset/">LED24</a>.
+		</div>
+
+		<div class="right">
+		<a href="/about">About</a> &bull;
+		<a href="/contact">Contact</a> &bull;
+		<a href="/link">Link</a> &bull;
+		<a href="/terms">Terms</a> &bull;
+		<a href="/privacy">Privacy</a> &bull;
+		<a href="/help">Help</a>
+		</div>
+
+		<div style="width: 100%; text-align:center; float: left; margin-top: 6px; ">
+
+			<a href='http://silver-islands.com/' target='_blank'>
+				<img src='http://images.pokeds.com/link-buttons/affiliates/silver-islands.png'
+					alt='Silver Islands' title='Silver Islands' />
+			</a>
+
+			<a href='http://indoplat.com/' target='_blank'>
+				<img src='http://images.pokeds.com/link-buttons/affiliates/button4.png'
+					alt='Indigo Plateau' title='Indigo Plateau' />
+			</a>
+
+			<a href='http://dragonflycave.com/' target='_blank'>
+				<img src='http://images.pokeds.com/link-buttons/affiliates/dialgabutton.gif'
+					alt='The Cave of Dragonflies' title='The Cave of Dragonflies' />
+			</a>
+
+		</div>
+	</div>
+</div>
+
+</div>
+
+
+	<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+	try {
+	var pageTracker = _gat._getTracker("UA-12530012-1");
+	pageTracker._trackPageview();
+	} catch(err) {}
+
+
+	var header = $("#navbar");
+	var content = $("#content");
+	$(document).scroll(function(e) {
+	    if($(this).scrollTop() > $("#banner").height()) {
+			content.css({"padding-top" : header.height()});
+	        header.css({"position" : "fixed", "top" : "0"});
+	    } else {
+	       content.css({"padding-top" : "0px"});
+		   header.css("position", "relative");
+	    }
+	});
+	</script>
